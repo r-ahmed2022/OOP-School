@@ -1,2 +1,1 @@
-def main
-end
+def main; end
