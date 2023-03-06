@@ -4,15 +4,30 @@ class Person
   
     def initialize(age, name, parent_permission)
       super()
-      @id = Random.rand(1..900)
+      @id = Random.rand(1..700)
       @name = name
       @age = age
       @parent_permission = parent_permission
-      @rentals = []
     end
-  
-    def correct_name
+
+    def id
+      @id
+    end
+
+    def name
+     @name 
+    end
+
+    def name
       @name = name
+    end
+   
+    def age
+        @age
+    end
+
+    def age
+        @age = age
     end
   
     def can_use_services?
