@@ -2,7 +2,7 @@ class Person
     attr_accessor :name, :age
     attr_reader :id, :name, :age
   
-    def initialize(age, name, parent_permission)
+    def initialize(age, name = "Unknown", parent_permission = true)
       super()
       @id = Random.rand(1..700)
       @name = name
@@ -10,26 +10,6 @@ class Person
       @parent_permission = parent_permission
     end
 
-    def id
-      @id
-    end
-
-    def name
-     @name 
-    end
-
-    def name
-      @name = name
-    end
-   
-    def age
-        @age
-    end
-
-    def age
-        @age = age
-    end
-  
     def can_use_services?
       is_of_age? || @parent_permission
     end
