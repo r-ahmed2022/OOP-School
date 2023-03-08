@@ -23,6 +23,10 @@ class Person < Nameable
     is_of_age? || @parent_permission
   end
 
+  def add_rentals(date, book_info)
+    Rental.new(date, book_info, self)
+  end
+
   private
 
   def of_age?
