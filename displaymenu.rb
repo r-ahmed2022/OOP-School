@@ -1,5 +1,5 @@
-require './storedata'
-require './loaddata'
+require_relative './storedata'
+require_relative'./loaddata'
 
 class DisplayMenu
   def display_menu(library) # rubocop:disable Metrics/CyclomaticComplexity
