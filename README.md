@@ -65,71 +65,25 @@ A school library app using Ruby OOP concepts.
 
 To get a local copy up and running, follow these steps.
 
+-  Install Ruby.
+- Clone the repository to the desired location.
+   git clone https://github.com/r-ahmed2022/OOP-School.git 
+- Run this project 
+    In the terminal run ruby main.rb
+
 ### Prerequisites
 
 In order to run this project you need:
 
-
-- Broad Understanding of Ruby
-- Git & github
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
+- Git and GitHub
+- A code editor
+- Ruby
 ### Setup
 
 Clone this repository to your desired folder:
 
-- Click on the green button on the top right corner with the text code
-- Click on SSH
-- Copy the text that appears below
-- Type "git clone" in your terminal and past the copied text next to "git clone" and press enter
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
-
---->
-
-### Install
-
-Install this project with:
-
-- Click on the green button on the top right corner with the text code
-- Click on "Download ZIP"
-- Extract the downloaded file locally
-- Once oponed up in a code editor run `npm install` to install all packages
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-
-### Usage
-
-To run the project, execute the following command:
-
-- Allow users to learn about rockets.
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+  -  https://github.com/r-ahmed2022/OOP-School.git 
+  - cd OOP-School
 
 ### Run tests
 
@@ -144,20 +98,6 @@ Example command:
 ```
 
 --->
-
-### Deployment
-
-You can deploy this project using:
-
-- Run `npm start` in an intergrated terminal in order to start a local live server.
-<!--
-Example:
-
-```sh
-
-```
-
--->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
