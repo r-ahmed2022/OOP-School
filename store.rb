@@ -18,11 +18,11 @@ def store_people(library)
   people = []
   library.people.each do |person|
     if person.class.to_s == 'Student'
-      student = { name: person.name, age: person.age, permission: person.parent_permission, type: person.class }
-      people.push(student)
+      (student = { name: person.name, age: person.age, permission: person.parent_permission, type: person.class }
+       people.push(student))
     else
-      teacher = { name: person.name, age: person.age, specialization: person.specialization, type: person.class }
-      people.push(teacher)
+      (teacher = { name: person.name, age: person.age, specialization: person.specialization, type: person.class }
+       people.push(teacher))
     end
   end
   File.write('people.json', "#{JSON.generate(people)}\n")
