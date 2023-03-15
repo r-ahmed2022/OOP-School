@@ -1,6 +1,5 @@
 require 'json'
 
-
 def load_data(library)
   load_books(library)
   load_people(library)
