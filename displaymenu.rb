@@ -3,7 +3,6 @@ require 'load'
 
 class DisplayMenu
   def display_menu(library) # rubocop:disable Metrics/CyclomaticComplexity
-    loading_data(library)
     loop do
       menu
       input = user_input
@@ -15,7 +14,6 @@ class DisplayMenu
       when 5 then library.create_rental
       when 6 then library.list_rentals
       when 7
-        preserve_data(library)
         break
       end
     end
