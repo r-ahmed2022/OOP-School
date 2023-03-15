@@ -1,8 +1,10 @@
 require './store'
+require './load'
 
 class DisplayMenu
   def display_menu(library) # rubocop:disable Metrics/CyclomaticComplexity
     loop do
+      load_data(library)
       menu
       input = user_input
       case input
