@@ -1,3 +1,5 @@
+require './store'
+
 class DisplayMenu
   def display_menu(library) # rubocop:disable Metrics/CyclomaticComplexity
     loop do
@@ -11,6 +13,7 @@ class DisplayMenu
       when 5 then library.create_rental
       when 6 then library.list_rentals
       when 7
+        store_data(library)
         break
       end
     end
